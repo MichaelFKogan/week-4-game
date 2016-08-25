@@ -1,0 +1,54 @@
+body {
+    background-image: url("../img/637668.jpg");
+    
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    }
+
+    *{
+        box-sizing: border-box;
+    }
+
+
+.walker{
+	height:150px;
+	margin-right:0px;
+	border:2px solid black;
+}
+
+
+.image, .img-responsive{
+	height:150px;
+	float:left;
+	width:auto;
+	border:2px solid white;
+}
+button{
+	float:left;
+}
+
+#col3{
+	float:center;
+}
+
+#number, #yourNumber{
+	font-size:45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

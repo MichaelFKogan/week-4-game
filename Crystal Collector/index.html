@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="bootstrap.css">
+
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+</head>
+<body>
+
+<!-- CONTAINER -->
+<div class="container">
+
+<!-- Jumbotron -->
+	<div class="jumbotron">
+		<img src="assets/img/617292.jpg" class="pull-right walker">
+			<h1> Game Of Thrones Crystal Game! </h1>
+			<p>Pick different characters to add up to the goal. Each character has a different amount. </p>
+	</div>
+
+
+	<!-- ROW 1 -->
+    <div class="row">
+        
+        <!-- COLUMN 1 -->
+        <div class="col-lg-6">
+            <!-- Setting A Panel and Panel Color -->
+            <div class="panel panel-primary">
+            
+              <div class="panel-heading">
+                <h3 class="panel-title">Your Goal:</h3>
+              </div>
+
+              <div class="panel-body">
+                  <p><span id="number"></span></p>  
+              </div>
+
+            </div>
+        </div>
+
+        
+
+        <!-- ROW 1, COLUMN 2 -->
+        <div class="col-lg-6">
+            
+            <!-- Setting A Panel And Panel Color -->
+            <div class="panel panel-success">
+                
+                <div class="panel-heading">
+                    <h3 class="panel-title">Your Guess:</h3>
+                </div>
+        
+                <div class="panel-body">
+                  <p><span id="yourNumber"></span></p>
+                </div>
+        
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class = "row">
+    	<div class = 'col-lg-offset-1 col-md-offset-0 col-sm-offset-2 col-xs-offset-2'>
+
+			<div class="panel-body">
+                 
+	    <div id="crystals">
+	    </div>
+	    </div>
+	</div>
+
+
+
+
+
+
+<!-- END CONTAINER -->
+</div>
+
+
+<!-- Added link to the jQuery Library -->
+	<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+
+<!-- Link to local jQuery downloaded on my computer -->
+<script type="text/javascript" src="jquery-3.1.0.js"></script>
+
+<!-- Adding a local jQuery file. Here you can add all jQuery changes to a seperate file called script.js -->
+
+<script type="text/javascript" src="assets/game.js"></script>
+
+</body>
+</html>
